@@ -3,6 +3,7 @@ import portfolio from './assets/portfolio.png'
 import online from './assets/online.png'
 import cicd from './assets/cicd.png'
 import game from './assets/game.png'
+import automation from './assets/automation.png'
 
 
 const Project = () => {
@@ -29,6 +30,11 @@ const Project = () => {
         <div className='flex flex-row gap-10  items-center mb-[50px] hover:bg-slate-800 h-[50vh] hover:scale-x-102  origin-left transition-transform duration-500  rounded-xl mr-[50px] '>
           <img src={game} className='h-[40vh] w-[100vw] ml-[2vw] mt-[2vh]  rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50 '></img>
           <p className='text-start text-[20px] '>Developed a 2D platformer game using Unity and C#, where the player controls a character to collect fruits while avoiding obstacles and reaching the finish line. Implemented game mechanics such as player movement, collision detection, scoring system, and level progression to create an interactive gaming experience.</p>
+        </div>
+
+        <div className='flex flex-row gap-10 items-center mb-[50px] hover:bg-slate-800 h-[70vh] hover:scale-x-102  origin-left transition-transform duration-500  rounded-xl mr-[50px] '>
+          <img src={automation} className='h-[300px]  w-[100vw] ml-[2vw] mt-[2vh]  rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50 '></img>
+          <p className='text-start text-[20px] '><ul class="list-disc"> <li >Developed an end-to-end automated CI/CD deployment pipeline using GitHub Actions and Linux, where the workflow triggers automated build and validation checks instantly upon every code commit.</li><li>Implemented core devops mechanics such as custom self-hosted runner provisioning, secure environment validation scripts, background process management using PM2, and zero-downtime server reloads to create a resilient hosting pipeline.</li></ul></p>
         </div>
 
       </div>
