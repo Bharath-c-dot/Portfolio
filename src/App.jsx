@@ -107,7 +107,6 @@ const App = () => {
               <button className='w-[20vw] h-[8vh] hover:bg-white border-b-[2px] border-white' onClick={(e) => welc(e)}>Home </button>
               <button className='w-[20vw] h-[8vh] hover:bg-white border-b-[2px] border-white' onClick={(e) => name(e)}>About Me</button>
               <button className='w-[20vw] h-[8vh] hover:bg-white border-b-[2px] border-white' onClick={(e) => projectf1(e)}>Projects</button>
-              <button className='w-[20vw] h-[8vh] hover:bg-white border-b-[2px] border-white'>My Work</button>
               <button className='w-[20vw] h-[8vh] hover:bg-white border-b-[2px] border-white' onClick={(e)=>conta(e)}>Contact Me</button>
 
           </div>
