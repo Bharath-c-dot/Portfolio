@@ -1,9 +1,9 @@
 import React from 'react'
 import portfolio from './assets/portfolio.png'
 import ai_portfolio from './assets/ai_portfolio.png'
-import cicd from './assets/cicd.png'
 import game from './assets/game.png'
 import automation from './assets/automation.png'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 
 const Project = () => {
@@ -29,7 +29,7 @@ const Project = () => {
                     className="flex items-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-5 py-3 text-sm font-medium transition hover:scale-105"
                   >
 
-                    <FaExternalLinkAlt />
+                    <FaExternalLinkAlt/>
 
                     Live Demo
 
