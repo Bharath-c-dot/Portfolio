@@ -23,7 +23,7 @@ const Project = () => {
           <h2 className='flex text-[28px] font-bold gap-5 text-white mb-2 hover:text-cyan-400 transition-colors'>
               AI Portfolio Website
               <a
-                    href="https://ai-portfolio-5son3wlye-bharath-c-dots-projects.vercel.app/"
+                    href="https://ai-portfolio-sigma-eosin.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex w-[30%] items-center gap-1 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-5 py-3 text-sm font-medium transition hover:scale-105"
