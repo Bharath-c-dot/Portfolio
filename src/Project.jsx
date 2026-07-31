@@ -31,11 +31,6 @@ const Project = () => {
         </div>
         </div>
         
-        <div className='flex flex-row gap-10  items-center hover:bg-slate-800 h-[50vh] hover:scale-x-102  origin-left transition-transform duration-500  rounded-xl mr-[50px] '>
-          <img src={cicd} className='h-[40vh] w-[100vw] ml-[2vw] mt-[2vh]  rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50 '></img>
-          <p className='text-start text-[20px] '>Developed an end-to-end CI/CD pipeline for microservices to automate the build, testing, and deployment process. Implemented containerized services and automated workflows using Docker, Git, and CI/CD tools, with AI-assisted guidance to understand continuous integration, continuous delivery, and scalable deployment practices in modern DevOps environments.</p>
-        </div>
-        
         <div className='flex flex-row gap-10  items-center mb-[50px] hover:bg-slate-800 h-[50vh] hover:scale-x-102  origin-left transition-transform duration-500  rounded-xl mr-[50px] '>
           <img src={game} className='h-[40vh] w-[100vw] ml-[2vw] mt-[2vh]  rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50 '></img>
           <p className='text-start text-[20px] '>Developed a 2D platformer game using Unity and C#, where the player controls a character to collect fruits while avoiding obstacles and reaching the finish line. Implemented game mechanics such as player movement, collision detection, scoring system, and level progression to create an interactive gaming experience.</p>
