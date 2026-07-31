@@ -20,13 +20,13 @@ const Project = () => {
         <div className='flex flex-row gap-10 items-center mb-[50px] hover:bg-slate-800 h-[50vh] hover:scale-x-102 origin-left transition-transform duration-500 rounded-xl mr-[50px]'>
         <img src={ai_portfolio} className='h-[40vh] w-[100vw] ml-[2vw] mt-[2vh] rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50' alt="AI Portfolio Website" />
         <div className='text-start text-[20px] pr-6'>
-          <h2 className='text-[28px] font-bold text-white mb-2 hover:text-cyan-400 transition-colors'>
+          <h2 className='flex text-[28px] font-bold gap-5 text-white mb-2 hover:text-cyan-400 transition-colors'>
               AI Portfolio Website
               <a
                     href="https://ai-portfolio-5son3wlye-bharath-c-dots-projects.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-5 py-3 text-sm font-medium transition hover:scale-105"
+                    className="flex w-[30%] items-center gap-1 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-5 py-3 text-sm font-medium transition hover:scale-105"
                   >
 
                     <FaExternalLinkAlt/>
