@@ -21,9 +21,19 @@ const Project = () => {
         <img src={ai_portfolio} className='h-[40vh] w-[100vw] ml-[2vw] mt-[2vh] rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50' alt="AI Portfolio Website" />
         <div className='text-start text-[20px] pr-6'>
           <h2 className='text-[28px] font-bold text-white mb-2 hover:text-cyan-400 transition-colors'>
-            <a href="https://ai-portfolio-5son3wlye-bharath-c-dots-projects.vercel.app/" target="_blank" rel="noreferrer" className="flex items-center gap-2">
               AI Portfolio Website
-            </a>
+              <a
+                    href="https://ai-portfolio-5son3wlye-bharath-c-dots-projects.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-5 py-3 text-sm font-medium transition hover:scale-105"
+                  >
+
+                    <FaExternalLinkAlt />
+
+                    Live Demo
+
+              </a>
           </h2>
           <p>
             Developed an AI-integrated developer portfolio using React and Tailwind CSS, featuring modern dark-mode UI design, interactive visual system architecture diagrams, and responsive layout scaling across all viewports. Integrated automated deployment workflows to deliver zero-downtime updates directly from source control.
