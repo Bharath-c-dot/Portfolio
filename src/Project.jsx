@@ -1,6 +1,6 @@
 import React from 'react'
 import portfolio from './assets/portfolio.png'
-import online from './assets/online.png'
+
 import cicd from './assets/cicd.png'
 import game from './assets/game.png'
 import automation from './assets/automation.png'
@@ -15,11 +15,6 @@ const Project = () => {
         <div className='flex flex-row gap-10  items-center hover:bg-slate-800 h-[50vh] hover:scale-x-102  origin-left transition-transform duration-500  rounded-xl mr-[50px] '>
           <img src={portfolio} className='h-[40vh] w-[100vw] ml-[2vw] mt-[2vh]  rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50 '></img>
           <p className='text-start text-[20px] '>A Hands-on project built with responsive portfolio web application developed using React.js and Tailwind CSS to showcase personal projects, skills, and professional information. The application provides a modern user interface, smooth navigation, and adaptive design to ensure compatibility across different devices such as desktops, tablets, and mobile phones.</p>
-        </div>
-        
-        <div className='flex flex-row gap-10  items-center hover:bg-slate-800 h-[50vh] hover:scale-x-102  origin-left transition-transform duration-500  rounded-xl mr-[50px] '>
-          <img src={online} className='h-[40vh] w-[100vw] ml-[2vw] mt-[2vh]  rounded-xl hover:shadow-[0_0_50px_1px] shadow-cyan-500/50 '></img>
-          <p className='text-start text-[20px] '>Developed an online banking web application using Java, Servlets, JSP, and JDBC following the MVC architecture. The project was implemented with AI-assisted guidance to understand real-world banking features such as user authentication, account management, and transaction processing while strengthening backend development concepts.</p>
         </div>
         
         <div className='flex flex-row gap-10  items-center hover:bg-slate-800 h-[50vh] hover:scale-x-102  origin-left transition-transform duration-500  rounded-xl mr-[50px] '>
