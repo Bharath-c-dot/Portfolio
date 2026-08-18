@@ -14,19 +14,36 @@ const AboutMe = () => {
                 
                 <div className="text-[20px] flex gap-[10vw]">
 
-                    <ol className="list-decimal text-start  ml-[15vw] space-y-2">
+                    <h4>Frontend Development</h4>    
+                    <ul className="list-decimal text-start  ml-[15vw] space-y-2">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
-                        <li>React</li>
-                    </ol>
+                        <li>React.js</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
 
+                    <h4>Backend Development</h4>
+                    <ul start="5" className="list-decimal ml-6 text-start space-y-2">
+                        <li>Java</li>
+                        <li>REST APIs</li>
+                    </ul>
 
-                    <ol start="5" className="list-decimal ml-6 text-start space-y-2">
-                        <li>Tailwind FrameWork</li>
-                        <li>Core Java</li>
+                    <h4>Database</h4>
+                    <ul start="5" className="list-decimal ml-6 text-start space-y-2">
+                        <li>SQL</li>
+                        <li>MySQL</li>
+                    </ul>
+
+                    <h4>DevOps & Tools</h4>
+                    <ul start="5" className="list-decimal ml-6 text-start space-y-2">
                         <li>Git</li>
-                    </ol>
+                        <li>GitHub</li>
+                        <li>Docker</li>
+                        <li>GitHub Actions</li>
+                        <li>CI/CD</li>
+                        <li>Linux</li>
+                    </ul>
 
                 </div>
 
@@ -38,8 +55,8 @@ const AboutMe = () => {
 
                 <h2 className='text-start text-[40px] mt-[30px]'>Project :</h2>
                 <p  className='mt-[20px] flex text-[20px]'><FaHandPointRight className='h-[5vh] w-[10vw] '/>Responsive Portfolio Web Application.</p>
-                <p  className='mt-[20px] flex text-[20px]'><FaHandPointRight className='h-[5vh] w-[10vw] '/>Online Banking Web Application.</p>
-                <p  className='mt-[20px] flex text-[20px]'><FaHandPointRight className='h-[5vh] w-[10vw] '/>End-to-End CI/CD Pipeline for Microservices.</p>
+                <p  className='mt-[20px] flex text-[20px]'><FaHandPointRight className='h-[5vh] w-[10vw] '/>AI Futuristic Developer Portfolio.</p>
+                <p  className='mt-[20px] flex text-[20px]'><FaHandPointRight className='h-[5vh] w-[10vw] '/>Automated CI/CD Deployment Pipeline.</p>
                 <p  className='mt-[20px] mb-[80px]  flex text-[20px]'><FaHandPointRight className='h-[5vh] w-[10vw] '/>2D Fruit Collector Game.</p>
 
 
