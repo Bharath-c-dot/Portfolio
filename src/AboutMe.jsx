@@ -14,8 +14,9 @@ const AboutMe = () => {
                 
                 <div className="text-[20px] flex-col gap-[10vw]">
 
-                    <h4>Frontend Development</h4>    
-                    <ul className="list-decimal text-start  ml-[15vw] space-y-2">
+                    
+                    <h4 className='ml-[10vw]'>Frontend Development</h4>
+                    <ul className="list-inside list-disc text-start  ml-[15vw] space-y-2">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -23,20 +24,20 @@ const AboutMe = () => {
                         <li>Tailwind CSS</li>
                     </ul>
 
-                    <h4>Backend Development</h4>
-                    <ul start="5" className="list-decimal ml-6 text-start space-y-2">
+                    <h4 className='ml-[10vw]'>Backend Development</h4>
+                    <ul className="list-inside list-disc text-start  ml-[15vw] space-y-2">
                         <li>Java</li>
                         <li>REST APIs</li>
                     </ul>
 
-                    <h4>Database</h4>
-                    <ul start="5" className="list-decimal ml-6 text-start space-y-2">
+                    <h4 className='ml-[10vw]'>Database</h4>
+                    <ul className="list-inside list-disc text-start  ml-[15vw] space-y-2">
                         <li>SQL</li>
                         <li>MySQL</li>
                     </ul>
 
-                    <h4>DevOps & Tools</h4>
-                    <ul start="5" className="list-decimal ml-6 text-start space-y-2">
+                    <h4 className='ml-[10vw]'>DevOps & Tools</h4>
+                    <ul  className="list-inside list-disc text-start  ml-[15vw] space-y-2">
                         <li>Git</li>
                         <li>GitHub</li>
                         <li>Docker</li>
