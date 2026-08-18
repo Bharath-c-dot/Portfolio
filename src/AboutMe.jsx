@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <p className='mt-[20px] p-[10px] text-[40px] text-start ml-[7vw]'>Skills :</p>
                 
                 
-                <div className="text-[20px] flex gap-[10vw]">
+                <div className="text-[20px] flex-col gap-[10vw]">
 
                     <h4>Frontend Development</h4>    
                     <ul className="list-decimal text-start  ml-[15vw] space-y-2">
